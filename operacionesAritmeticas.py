@@ -22,15 +22,18 @@ print(type(10))
 print(type(3.14))
 print(type(1 + 3j))
 print(type("texto"))
-print(type([1,2,3,4,5,6,7,8,9]))
+print(type([1,2,3,4,5,6,7,8,9,[1,3,45,3,2,65,"3"]]))
 print(type((9,3,5,4,6,7,1)))
 print(type({'nombre':'juan'}))
 print(type(3 < 10))
 print(type({1,2,3,4,5,6,7,8,9}))
-
+lista = [1,2,3,4,5,6,7,8,9,[1,3,45,3,2,65,"3"]]
 
 lastname = "garay"
 fullname = "ervin garay"
 country = "chile"
 city = "concepcion"
 age = 28
+
+
+print(len(age))
