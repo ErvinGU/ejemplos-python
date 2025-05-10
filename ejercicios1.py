@@ -1,4 +1,5 @@
 import math as m
+import pandas as pd
 
 
 
@@ -44,11 +45,31 @@ promedio = (nota1 + nota2 + nota3) / 3
 print(f"el promedio de nota es : {promedio:.2f}") """
 
 
-#area de un triangulo equilater0
+""" #area de un triangulo equilater0
 #A = (√3 / 4) * L²
 
 lado = float(input(f"longitud del lado del triangulo"))
 
 area = (m.sqrt(3) / 4) * lado **2
 
-print(f"Area del triangulo es : {area:.1f}")
+print(f"Area del triangulo es : {area:.1f}") """
+
+
+#area de un anillo
+#A = π x (R² - r²)
+
+""" R = float(input("radio mayor :"))
+r = float(input("radio menor :")) 
+area = m.pi * (R **2 - r **2)
+
+print(f"area del anillo es de : {area:.1f}") """
+
+
+#como funciona pandas
+""" 
+df = pd.read_csv("clash_royale_cards.csv")
+
+
+print("las primeras 5 filas de mi csv")
+print(df.head()) """
+
