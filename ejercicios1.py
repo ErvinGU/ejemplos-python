@@ -66,10 +66,9 @@ print(f"area del anillo es de : {area:.1f}") """
 
 
 #como funciona pandas
-""" 
 df = pd.read_csv("clash_royale_cards.csv")
 
 
 print("las primeras 5 filas de mi csv")
-print(df.head()) """
+print(df.head())
 
